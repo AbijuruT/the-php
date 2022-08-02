@@ -144,6 +144,6 @@ $todos = [
     ['title' => 'To do title 4', 'completed' => true],
     ['title' => 'To do title 5', 'completed' => false]
 ];
-echo '<pre>';
-var_dump($todos);
-echo '</pre>';
+// echo '<pre>';
+print_r($todos)."\n";
+// echo '</pre>';

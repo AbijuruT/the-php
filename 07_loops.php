@@ -36,8 +36,8 @@ $person = [
 ];
 foreach($person as $key => $value){
     if(is_array($value)){
-        echo $key . ' ' . implode(',',$value) . '<br>';
+        echo $key . ' ' . implode(',',$value) . "\n";
     }else{
-        echo $key . ' ' . $value . '<br>';
+        echo $key . ' ' . $value . "\n";
     }
 }
